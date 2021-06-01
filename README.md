@@ -13,18 +13,18 @@ Common commands from within the terminal are: `cd` change directory, `ls` list f
 The terminal is powerful. Be careful: you can break things.
 
 ## VS Code
-Microsoft Visual Studio Code is an open-source code editor. You can use to access/code/talk to all sorts of software, languages, and machines. You can use it to make websites, program an Arduino microcontroller, control a Raspberry PI, code a game in Unity, write Twine poetry, draw P5 sketches, and gazillion other things.
+Microsoft Visual Studio Code is an open-source code editor. You can use it to access/code/talk to all sorts of software, languages, and machines. You can use it to make websites, program an Arduino microcontroller, control a Raspberry PI, code a game in Unity, write Twine poetry, draw P5 sketches, and gazillion other things.
 
 <https://code.visualstudio.com/download>
 
 Once you have downloaded and installed VS Code on your machine, you should install the following "exensions" to VS Code: `Menu` > `View` > `Extensions`
 
 - [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
-- [p5.vscode](https://marketplace.visualstudio.com/items?itemName=samplavigne.p5-vscode)
 - [Live Share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare)
-- [SSH Tools](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh)
-- [GIT Lens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
+- [p5.vscode](https://marketplace.visualstudio.com/items?itemName=samplavigne.p5-vscode)
 - [Python for Visual Studio](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
+- [GIT Lens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
+- [SSH Tools](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh)
 
 To make Unity (see below) work with VS Code, you should install the following :
 - [Dot Net Core SDK](https://dotnet.microsoft.com/download)
@@ -46,7 +46,7 @@ You can write P5 "sketches" using the `P5.vscode` extension for VS Code (cf. abo
 
 Make sure you create an account in order to save your work and access your previous sketches.
 
-If you are already experienced in creating web pages, you can download the latest "complete library" version of P5 to your computer. This will also allow you to creatively code offline. In this way, you would code your P5 sketches using VS Code (cf. above):
+If you are already experienced in creating web pages, you can download the latest "complete library" version of P5 to your computer. This will also allow you to creatively code offline. In this approach, you would code your P5 sketches using VS Code (cf. above):
 
 <https://p5js.org/download/>
 
@@ -93,7 +93,16 @@ If you are already an expert in some other "animation" or "game design" oriented
 ## Blender
 Blender is a free, open-source alternative to Cinema 4D, and is currently the rising platform for all things animation/game 3D. It is not the ideal tool for CAD-style design of physical objects. If you know Maya inside and out, good for you. If you don't and want to learn all the basic tools of asset creation for games, along with rigging tools, start with Blender:
 
-<https://www.blender.org/download/> 
+<https://www.blender.org/download/>
+
+## Shapr3D
+If you have an iPad + Pencil, get Shapr3d. You won't regret it. It is easy to learn and is the fastest way to design CAD-style physical objects, and uses the same "Parasolid" 3D rendering engine as the industry CAD standard Solidworks, albeit without all gazillion extra tools or solutions Solidworks provides:
+
+<https://www.shapr3d.com>
+
+There is a free student + teacher license that allows you to work on more than two models at once. You have to renew this license every year:
+
+<https://www.shapr3d.com/education>
 
 ## GIT
 We use Git to backup, collaborate, and create historical breadcrumbs of our work.
