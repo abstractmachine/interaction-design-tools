@@ -1,5 +1,7 @@
 # Media Design Tools
-This is a list of all the basic tools that any student of Media Design should have access to. While there is an infinite variety of possible tools that can be used in any project, this is the list of the core basics that should be downloaded/configured on your personal computer.
+This is a list of all the basic tools that any student of interaction design should have access to. While there is an infinite variety of possible tools that can be used in any project, this is the list of the core basics that should be downloaded/configured on your personal computer.
+
+This list is oriented more towards the *creative coding*, and/or the *make-semi-functional-prototypes* approach, than the mockup-only *UX* or *UI* style of teaching interaction design.
 
 ## Terminal
 Figure out where the Terminal is on your computer.
