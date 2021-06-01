@@ -71,15 +71,19 @@ Download the Arduino software here:
 Arduino is simple software, so great for beginners. But you can also use VS Code (cf. above) to code your Arduino projects.
 
 ## Unity
-Always start by installing the Unity Hub. **Ignore the "Choose your version of Unity" button**. You should instead install your preferred version of Unity directy from with the "Unity Hub":
+Unity is a "game engine", used for making 3D games or interactive experiences in general. Unity projects can be distributed on Mac, PC, Linux, Web, iOS, iPadOS, Android, Switch, Playstation, & XBox. It is the de-facto standard for AR, and is the dominant player in the world of VR. It's closest competitor is the Unreal Engine, or the more modest open-source project Godot.
 
-<https://unity3d.com/fr/get-unity/download>
-
-Create a free account on the Unity website:
+Start by creating a free account on the Unity website:
 
 <https://id.unity.com/account/new>
 
-Open Unity Hub on your computer and login to your account. From this hub, download the latest `LTS` version of Unity. `LTS` is the "Long Term Support" version of Unity and will last for at least two-years, i.e. the length of a masters programme. Current we are using Unity 2020.3.x (the last number is just bug fixes and is compatible with any other 2020.3.x release).
+Always install whichever version of Unity you prefer via the "Unity Hub".
+
+<https://unity3d.com/fr/get-unity/download>
+
+**Ignore the "Choose your version of Unity" button** and instead install your preferred version of Unity directy from with this "Unity Hub". It will allow you to add and/or remove the various (large) components of your Unity installation at a later date, depending on the platform(s) you are targetting.
+
+Open Unity Hub on your computer and login to your account. From this hub, download the latest `LTS` version of Unity. `LTS` is the "Long Term Support" version of Unity and will last for at least two-years, i.e. the length of a masters programme. Current we are using Unity 2020.3.x. The last number is just bug fixes and is compatible with any other 2020.3.x release.
 
 ## Cinema 4D
 We use Cinema 4D for creating speculative scenarios, world building, and exploring narrative through 3D. It is not the ideal tool for CAD-style design of physical objects.
