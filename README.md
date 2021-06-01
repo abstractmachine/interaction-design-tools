@@ -1,18 +1,7 @@
 # Interaction Design Tools
 This is a list of all the basic tools that any student of interaction design should have access to. While there is an infinite variety of possible tools that can be used in any project, this is the list of the core basics that should be downloaded/configured on your personal computer.
 
-This list is oriented more towards the *creative coding*, and/or the *make-semi-functional-prototypes* approach, than the mockup-only *UX* or *UI* style of teaching interaction design.
-
-## Terminal
-Figure out where the Terminal is on your computer.
-
-- macOS: `cmd` + `space` and type `Terminal`
-- Windows: 
-- Linux: 
-
-Common commands from within the terminal are: `cd` change directory, `ls` list files in current directory, `mkdir` make directory, `cp` copy file, `mv` move or rename a file/directory.
-
-The terminal is powerful. Be careful: you can break things.
+This list is oriented more towards the *creative coding*, and/or the *make-semi-functional-prototypes* approach, than the mockup *UX* or *UI* style of teaching interaction design.
 
 ## VS Code
 Microsoft Visual Studio Code is an open-source code editor. You can use it to access/code/talk to all sorts of software, languages, and machines. You can use it to make websites, program an Arduino microcontroller, control a Raspberry PI, code a game in Unity, write Twine poetry, draw P5 sketches, and gazillion other things.
@@ -109,6 +98,17 @@ If you have an iPad + Pencil, get Shapr3d. You won't regret it. It is easy to le
 There is a free student + teacher license that allows you to work on more than two models at once. You have to renew this license every year:
 
 <https://www.shapr3d.com/education>
+
+## Terminal
+Figure out where the Terminal is on your computer.
+
+- macOS: `cmd` + `space` and type `Terminal`
+- Windows: 
+- Linux: 
+
+Common commands from within the terminal are: `cd` change directory, `ls` list files in current directory, `mkdir` make directory, `cp` copy file, `mv` move or rename a file/directory.
+
+The terminal is powerful. Be careful: you can break things.
 
 ## GIT
 We use Git to backup, collaborate, and create historical breadcrumbs of our work.
