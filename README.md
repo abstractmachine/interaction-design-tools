@@ -46,9 +46,10 @@ Once you have downloaded and installed VS Code on your machine, you should insta
 - [Live Share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare)
 - [p5.vscode](https://marketplace.visualstudio.com/items?itemName=samplavigne.p5-vscode) (cf. P5 below)
 - [Python for Visual Studio](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
+- [Arduino extension](https://marketplace.visualstudio.com/items?itemName=vsciot-vscode.vscode-arduino) (cf. Arduino below)
 - [GIT Lens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens) (cf. Git below)
 - [SSH Tools](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh)
-- [Twee 3 Language Tools](https://marketplace.visualstudio.com/items?itemName=cyrusfirheir.twee3-language-tools) (cf. Twine/Twee below)
+- [Twee 3 Language Tools](https://marketplace.visualstudio.com/items?itemName=cyrusfirheir.twee3-language-tools) (cf. Twine/Twee above)
 
 To make Unity (cf. below) work with VS Code, you should install the following :
 - [Dot Net Core SDK](https://dotnet.microsoft.com/download)
@@ -146,7 +147,7 @@ Always install whichever version of Unity you prefer via the "Unity Hub".
 
 <https://unity3d.com/fr/get-unity/download>
 
-**Ignore the "Choose your version of Unity" button** and instead install your preferred version of Unity directy from with this "Unity Hub". It will allow you to add and/or remove the various (large) components of your Unity installation at a later date, depending on the platform(s) you are targetting.
+**Ignore the "Choose your version of Unity" button** and instead install your preferred version of Unity directy from within this "Unity Hub". It will allow you to add and/or remove the various (large) components of your Unity installation at a later date, depending on the platform(s) you are targetting.
 
 Open Unity Hub on your computer and login to your account. From this hub, download the latest `LTS` version of Unity. `LTS` is the "Long Term Support" version of Unity and will last for at least two-years, i.e. the length of a masters programme. Current we are using Unity 2020.3.x. The last number is just bug fixes and is compatible with any other 2020.3.x release.
 
@@ -192,10 +193,12 @@ Download the Arduino software here:
 
 <https://www.arduino.cc/en/software>
 
-Arduino is simple software, so great for beginners. But you can also use VS Code (cf. above) to code your Arduino projects.
+Arduino is simple software, so great for beginners. But you can also use VS Code (cf. above) to code your Arduino projects:
+
+[Arduino extension](https://marketplace.visualstudio.com/items?itemName=vsciot-vscode.vscode-arduino) (VS Code)
 
 ### Shapr3D
-If you have an iPad + Pencil, get Shapr3d. You won't regret it. It is easy to learn and is the fastest way to design CAD-style physical objects, and uses the same "Parasolid" 3D rendering engine as the industry CAD standard Solidworks, albeit without all gazillion extra tools or solutions Solidworks provides:
+If you have an iPad + Pencil, get Shapr3d. You won't regret it. It is easy to learn and is the fastest way to design CAD-style physical objects, and uses the same "Parasolid" 3D rendering engine as the industry CAD standard Solidworks, albeit without all the gazillion extra tools and solutions Solidworks provides. But for pure modelling of objects, gadgets, furniture, and all sorts of "stuff", Shapr3d is blazingly easy, fast, and feels like the future of CAD:
 
 <https://www.shapr3d.com>
 
@@ -214,10 +217,10 @@ There is a student/faculty price:
 
 Note: if you are on an M1-based Mac, Rhino currently runs in emulation mode. M1 emulation is insanely fast, so don't worry too much. There are currently still some bugs but it should be fine for most uses. You will have to wait for the next version of Rhino for full native M1 compatibility.
 
-Grasshopper is plug-in that allows you to make node-based parametric designs in Rhino. Imagine drawing a chair, and then plugging dynamic parameters
+Grasshopper is visual, node-based plug-in that allows you to create parametric designs in Rhino. Imagine designing a chair, and then plugging various parameters of that design into a modular system that allows you to tweak the chair by sliding around visual sliders.
 
 ### Fusion 360
-The up-and-coming beheamoth of CAD tool suites.
+The up-and-coming beheamoth of CAD tool, with a whole suite of functionality that all works together.
 
 - - -
 
@@ -251,6 +254,6 @@ Figma is one of many possible tools you can you to make interactive wireframes o
 
 <https://www.figma.com>
 
-By adding Bravo into the mix, you can convert your Figma prototype into an actul working app that you can install onto your phone.
+By adding Bravo into the mix, you can convert your Figma prototype into an actual working app that you can install onto your phone.
 
 <https://www.bravostudio.app>
