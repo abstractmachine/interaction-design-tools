@@ -9,6 +9,30 @@ Not everything here is open-source, although there are open-source alternative l
 
 - - -
 
+## Storytelling
+
+### Twine/Twee
+Twine is a tool for making non-linear interactive text-based stories. It is also a great tool for getting started with interactivity. At some stage of each narrative project, we almost always prototype at least some part of our interactive stories in Twine. Twine is the best and fastest was to learn interactive branching narrative.
+
+<https://twinery.org>
+
+Twine comes with a branching, node-based visual tool.
+
+Once we have used Twine to quickly find our voice, we either move to another tool, such as Fungus (cf. below), or design a more sophisticated story using Twine itself, or its pure text-based variant, named Twee:
+
+<https://www.motoslave.net/tweego/>
+
+The best way to write text-only Twee stories is from within VS Code (cf. below).
+
+### Fungus
+Fungus is a free, open-source plug-in for Unity that you can download via the Unity Asset Store (cf. below).
+
+[Fungus](https://assetstore.unity.com/packages/tools/game-toolkits/fungus-34184)
+
+It is a node-based programming tool, meaning you can design interactions using a system of interconnected visual "blocks" instead of writing text-based code.
+
+- - -
+
 ## Code
 
 ### VS Code
@@ -103,7 +127,7 @@ Install the Python package manager `pip3`
 
 Make sure you have the following base Python packages installed:
 
-- [Pytoch](https://pytorch.org/get-started/locally/)
+- [Pytorch](https://pytorch.org/get-started/locally/)
 - [Numpy](https://numpy.org/install/)
 - [Tensorflow](https://www.tensorflow.org/install/pip?hl=fr)
 
@@ -141,26 +165,6 @@ If you are already an expert in some other "animation" or "game design" oriented
 Blender is a free, open-source alternative to Cinema 4D, and is currently the rising platform for all things animation/game 3D. It is not the ideal tool for CAD-style design of physical objects. If you know Maya inside and out, good for you. If you don't and want to learn all the basic tools of asset creation for games, along with rigging tools, just learn Blender:
 
 <https://www.blender.org/download/>
-
-- - -
-
-## Storytelling
-
-### Twine/Twee
-At some stage of each narrative project, we almost always prototype at least some part of our interactive stories in Twine. Twine is the best and fastest was to learn interactive branching narrative.
-
-<https://twinery.org>
-
-Once we have used Twine to quickly find our voice, we either move to another tool, such as Fungus (cf. below), or design a more sophisticated story using Twine itself, or its pure text-based variant, named Twee:
-
-<https://www.motoslave.net/tweego/>
-
-### Fungus
-Fungus is a free, open-source plug-in for Unity that you can download via the Unity Asset Store.
-
-[Fungus](https://assetstore.unity.com/packages/tools/game-toolkits/fungus-34184)
-
-It is a node-based programming tool, meaning you can design interactions using a system of interconnected visual "blocks" instead of writing text-based code.
 
 - - -
 
