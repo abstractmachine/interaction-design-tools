@@ -3,7 +3,7 @@ This is a list of some of the basic tools that any student of interaction design
 
 There is an infinite variety of possible tools that can be used in any project, so this list is by definition incomplete. These are just some of the core basics that should be downloaded/configured on your personal computer.
 
-This list is oriented more towards the *creative coding*, and/or the *make-semi-functional-prototypes* approach, than the mockup *UX* or *UI* style of teaching interaction design.
+This list is oriented more towards the *creative coding*, and/or the *make-stuff-break-stuff* approach, than the mockup *UX* or *UI* style of teaching interaction design.
 
 Not everything here is open-source, although there are open-source alternative listed, when available.
 
