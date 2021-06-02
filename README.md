@@ -93,8 +93,8 @@ If you need to install commands in your terminal, you should use a "package mana
 
 - macOS
 	- install `brew`
-- Linux
-	- use `apt-get` (installed by default on Raspberry Pi)
+- Linux (Ubuntu, Raspberry OS)
+	- `apt-get`
 - Windows
 	- ???
 
