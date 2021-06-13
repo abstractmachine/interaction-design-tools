@@ -44,7 +44,7 @@ We use Miro to collaboratively flesh out ideas, make mindmaps, write story trees
 <https://miro.com/>
 
 ### Figma
-Figma is one of many possible tools you can you to make interactive wireframes of an app or website. [XD](https://www.adobe.com/fr/products/xd.html) is another option.
+Figma is one of many possible tools you can use to make interactive wireframes of an app or website. [XD](https://www.adobe.com/fr/products/xd.html) is another option.
 
 <https://www.figma.com>
 
