@@ -1,18 +1,18 @@
 # Interaction Design Tools
-This is a list of some of the basic tools that any student of interaction design should have access to. 
+This is a list of some of the basic tools that any student of interaction design should have access to. This is very much a work-in-progress document and was principally designed for my students and colleagues at the [Master Media Design](https://www.hesge.ch/head/formations-recherche/master-en-media-design) and the needs of the larger community at the [HEAD – Genève](https://www.hesge.ch/head).
 
-There is an infinite variety of possible tools that can be used in any project, so this list is by definition incomplete. These are just some of the core basics that should be downloaded/configured on your personal computer.
+There is an infinite variety of possible tools that can be used in any project, so this list is by definition incomplete. These are just some of the current basic tools that should be downloaded/configured on your personal computer. Mastering one or two of these tools is a good idea. But just as importantly, learn to move from one to the other, depending on the needs of your projects. Do not get stuck in one single technical workflow.
 
 This list is oriented more towards the *creative coding*, and/or the *make-stuff-break-stuff* approach, than the mockup *UX* or *UI* style of teaching interaction design.
 
-Not everything here is open-source, although there are open-source alternative listed, when available.
+Not everything here is open-source, although there are open-source alternatives listed, when available. Important student discounts, and/or free-versions exist for all of the paid tools listed here.
 
 - - -
 
 ## Storytelling
 
 ### Twine/Twee
-Twine is a tool for making non-linear interactive text-based stories. It is also a great tool for getting started with interactivity. At some stage of each narrative project, we almost always prototype at least some part of our interactive stories in Twine. Twine is the best and fastest was to learn interactive branching narrative.
+Twine is a tool for making non-linear interactive text-based stories. It is a great tool for getting started with interactivity. At some stage of each narrative project, we almost always prototype at least some part of our interactive stories in Twine. Twine is the best and fastest was to learn interactive branching narrative.
 
 <https://twinery.org>
 
@@ -35,7 +35,55 @@ Fungus is a fun way to start learning Unity and works well for youth-workshop in
 
 - - -
 
+## Wireframing/Diagrams
+One of the fastest ways to get started designing app-based or web-based interactions is to make a wireframe diagram of the flow of interactions.
+
+### Miro
+We use Miro to collaboratively flesh out ideas, make mindmaps, write story trees, design website navigation, and all sorts of other things.
+
+<https://miro.com/>
+
+### Figma
+Figma is one of many possible tools you can you to make interactive wireframes of an app or website. [XD](https://www.adobe.com/fr/products/xd.html) is another option.
+
+<https://www.figma.com>
+
+### Bravo
+By adding Bravo into the mix, you can convert your Figma prototype into an actual working app that you can install onto your phone.
+
+<https://www.bravostudio.app>
+
+Note: I have not tested this solution sufficiently to recommend it.
+
+- - -
+
+## Markdown
+[Markdown](https://fr.wikipedia.org/wiki/Markdown) gets it's own category.
+
+Stop using Word for writing your documents. Use Markdown. You are welcome.
+
+Markdown was originally designed for bloggers wishing to keep their text clean on their end (writer-oriented design tools), but with the possibility of easily converting said text into web pages with all the advantages that structured hypertext allows. From this original use-case, the simplicity and elegance of Markdown has allowed it to evolve into *the* de-facto, default format for all types of text documents: blogs, essays, chat discussions (cf. [Discord](https://support.discord.com/hc/en-us/articles/210298617-Markdown-Text-101-Chat-Formatting-Bold-Italic-Underline-)), documentation, and so on.
+
+Markdown was designed to be easily transformed into whatever final format you need to export to: .doc, .txt, .html, .pdf, .epub, etc. (cf. Pandoc, below).
+
+### Pandoc
+By using a command-line tool (cf. Terminal, below) such as [Pandoc](https://pandoc.org), you can convert your Markdown texts to and from all sorts of formats: .doc, .otf, .pdf, .epub, etc.
+
+	1. [Install Pandoc](https://pandoc.org/installing.html) using the installer. Make sure to follow the instructions for adding LaTeX into your installation of Pandoc for whatever platform you are using. LaTeX will allow us to generate PDF files from Markdown
+	2. Create a simple Markdown text file (cf. [Getting Started](https://pandoc.org/getting-started.html)) in whatever text editor you prefer (cf. VS Code, below)
+	3. Open your Terminal (cf. below) into the folder of your text file
+	4. Type `pandoc nameofinput.md -o nameofoutput.pdf`
+	
+Voilà, you now have a powerful workflow for writing your master's thesis. Here, for example, is [Mathilde Buenerd's Masters Thesis](https://github.com/mathildebuenerd/master-thesis-autocomplete) with instructions for the tools and workflow she designed to write and publish it.
+
+Important note: in this Markdown > Pandoc > ________ approach, you will design the typography and layout using Cascading Style Sheets (CSS) — the format for designing web pages. This does not mean that your project is screen-based only; CSS can be used in print-based layout and typography.
+
+- - -
+
 ## Code
+Code is probably the most important "tool" to learn when aquiring your basic interaction design skills, and for many the hardest. When we say "code", we mean text typed into some sort of "interpreter" or "compiler" that make your things do things. You can successfully design many projects using off-the-shelf solutions, or opt for visual node-based solutions such as Twine, Max, Fungus, etc. But probably, at some point, you will need to understand the rudimentary basics of text-based coding to create more unique experiences and especially if you want or need to build your own tools for your practice.
+
+Warning: there is no silver-bullet one-language-to-rule-them-all. If someone tells you that they have discovered such a unique unicorn, they are most definitely wrong. Chances are they discovered a curious animal in the coding wilderness, found a way to tame it for their own needs, and are now extrapolating their own knowledge subset to the larger set of all other needs.
 
 ### VS Code
 Visual Studio Code is an open-source code editor, maintained by big old Microsoft. You can use it to access/code/talk to all sorts of software, languages, and machines. You can use it to make websites, program an Arduino microcontroller, control a Raspberry PI, code a game in Unity, write Twine poetry, draw P5 sketches, and gazillion other things. It is currently the de-facto tool for coding stuff in general.
@@ -52,6 +100,7 @@ Once you have downloaded and installed VS Code on your machine, you should insta
 - [GIT Lens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens) (cf. Git below)
 - [SSH Tools](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh)
 - [Twee 3 Language Tools](https://marketplace.visualstudio.com/items?itemName=cyrusfirheir.twee3-language-tools) (cf. Twine/Twee above)
+- [vscode-pandoc](https://marketplace.visualstudio.com/items?itemName=DougFinke.vscode-pandoc) (requires Pandoc installation, cf. above)
 
 To make Unity (cf. below) work with VS Code, you should install the following :
 - [Dot Net Core SDK](https://dotnet.microsoft.com/download)
@@ -145,15 +194,17 @@ Start by creating a free account on the Unity website:
 
 <https://id.unity.com/account/new>
 
+You can use any one of the free tiers, either student or free. There is no need for you to sign up for a "pro" account.
+
 Always install whichever version of Unity you prefer via the "Unity Hub".
 
 <https://unity3d.com/fr/get-unity/download>
 
-**Ignore the "Choose your version of Unity" button** and instead install your preferred version of Unity directy from within this "Unity Hub". It will allow you to add and/or remove the various (large) components of your Unity installation at a later date, depending on the platform(s) you are targetting.
+Important: **Ignore the "Choose your version of Unity" button** and instead install your preferred version of Unity directy from within this "Unity Hub". It will allow you to add and/or remove the various (large) components of your Unity installation at a later date, depending on the platform(s) you are targetting.
 
-Open Unity Hub on your computer and login to your account. From this hub, download the latest `LTS` version of Unity. `LTS` is the "Long Term Support" version of Unity and will last for at least two-years, i.e. the length of a masters programme. Current we are using Unity 2020.3.x. The last number is just bug fixes and is compatible with any other 2020.3.x release.
+Open Unity Hub on your computer and login to your account. From this hub, download the latest `LTS` version of Unity. `LTS` is the "Long Term Support" version of Unity and will last for at least two-years, i.e. the length of a masters programme. Currently we are using Unity 2020.3.x. The last number is just bug fixes and is compatible with any other 2020.3.x release.
 
-*Special note:* constantly, always, without fail, someone will ask: "Isn't Unreal better than Unity?", "I read that Unreal is better than Unity", or "But I saw this YouTube video that says...", and so on. So: *tell me*, is it better? Yes, if you insist. But also: no, it isn't. Or, maybe. Or, whatever. Ask someone else. It's usually the wrong question. Unreal is not "better". It is "different", even if there is an overlap and they are definitely competitors. Unreal is awesome for cinematic immersive 3D world explorations. The latest Meta Human stuff is incredible, but Character Creator 3 works with Unity, so maybe it isn't that incredible after all. We'll see. Some people think it's easier to learn Unreal; many people think it's actually harder. Unity is ok to good for *some* of the things Unreal does really well, but is usually better because it does everything else, especially if you want to make 2D interactive games or experiences. But for 2D game design you can find a gazillion other alternatives. And there is always Godot, and even the cool 2D-oriented [P5.Play](https://molleindustria.github.io/p5.play/) plugin for P5 by none other than [Molleindustria](http://www.molleindustria.org). I don't know. Maybe you should ask better questions.
+*Special note:* constantly, always, without fail, someone will ask: "Isn't Unreal better than Unity?", "I read that Unreal is better than Unity", or "But I saw this YouTube video that says...", and so on. So: *tell me*, is it better? Yes, if you insist. But also: no, it isn't. Or, maybe. Or, whatever. Ask someone else. It's usually the wrong question. Unreal is not "better". It is "different", even if there is an overlap and they are definitely competitors. Unreal is awesome for cinematic immersive 3D world explorations. The latest Meta Human stuff is incredible, but Character Creator 3 works with Unity, so maybe it isn't that incredible after all. We'll see. Again, wrong question. Some people think it's easier to learn Unreal; many people think it's actually harder. All those people are right or wrong, depending on who you ask. We use Uniy for a bunch of stuff Unreal doesn't doesn't do as well. Does that make Unity better than Unreal? No. Next question. *What? You want a better answer? Hmmmm… Unity is ok to good for *some* of the things Unreal does really well, but is usually better for our needs because it does everything else, especially if you want to make 2D interactive games or experiences. But for 2D game design you can find a gazillion other alternatives. And there is always Godot, and even the cool 2D-oriented [P5.Play](https://molleindustria.github.io/p5.play/) plugin for P5 by none other than the amazingly-awesome [Molleindustria](http://www.molleindustria.org). So, final word: I don't know. Maybe you should ask better questions.
 
 ## Cinema 4D
 We use Cinema 4D for creating speculative scenarios, world building, and exploring narrative through 3D. It is not the ideal tool for CAD-style design of physical objects.
@@ -244,18 +295,8 @@ It is probably best to get familiar with the basics of P5 first, before explorin
 
 - - -
 
-## Wireframing/Diagrams
+## WebApp
 
-### Miro
-We use Miro to collaboratively flesh out ideas, make mindmaps, write story trees, design website navigation, and all sorts of other things.
+Many of the creative coding tools here generate [HTML5](https://fr.wikipedia.org/wiki/HTML5) output. Twine narratives, P5 interactive and generative sketches.
 
-<https://miro.com/>
-
-### Figma + Bravo
-Figma is one of many possible tools you can you to make interactive wireframes of an app or website.
-
-<https://www.figma.com>
-
-By adding Bravo into the mix, you can convert your Figma prototype into an actual working app that you can install onto your phone.
-
-<https://www.bravostudio.app>
+Here is a tutorial for [Creating a WebView App in XCode](https://www.youtube.com/watch?v=zm9g7hPESz8). This is an iOS/macOS-only solution. The idea is to create a local folder containing your P5 sketch or Twine story's index.html file and associated assets (images, sounds, whatever), then to create an app around that folder in xCode.
