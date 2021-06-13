@@ -165,19 +165,22 @@ You will share code from your various projects and download code from various co
 Install a Python Virtual Environment.
 
 ```
+// TODO
 ```
 
 Install the latest Python version to your virtual environment.
 
 ```
+// TODO
 ```
 
 Install the Python package manager `pip3`
 
 ```
+// TODO
 ```
 
-Make sure you have the following base Python packages installed:
+Since we do a lot of A.I. experiments, be sure you have the following base Python packages installed:
 
 - [Pytorch](https://pytorch.org/get-started/locally/)
 - [Numpy](https://numpy.org/install/)
@@ -305,7 +308,10 @@ Note: this library for Unity requires 1. a basic understanding of Unity and 2. a
 - - -
 
 ## WebApp
+A fast way to make an app is to build a web page and then to build an app around it, and install that app onto your iPhone, iPad, or Android phone/tablet.
 
-Many of the creative coding tools here generate [HTML5](https://fr.wikipedia.org/wiki/HTML5) output. Twine narratives, P5 interactive and generative sketches.
+Many of the creative coding tools here generate [HTML5](https://fr.wikipedia.org/wiki/HTML5) webpages: Twine narratives, P5 interactive/generative sketches, etc. 
 
 Here is a tutorial for [Creating a WebView App in XCode](https://www.youtube.com/watch?v=zm9g7hPESz8). This is an iOS/macOS-only solution. The idea is to create a local folder containing your P5 sketch or Twine story's index.html file and associated assets (images, sounds, whatever), then to create an app around that folder in xCode.
+
+- Todo: add Android .apk webapp solution.
