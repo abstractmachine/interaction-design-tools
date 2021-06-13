@@ -86,7 +86,7 @@ Code is probably the most important "tool" to learn when aquiring your basic int
 Warning: there is no silver-bullet one-language-to-rule-them-all. If someone tells you that they have discovered such a unique unicorn, they are most definitely wrong. Chances are they discovered a curious animal in the coding wilderness, found a way to tame it for their own needs, and are now extrapolating their own knowledge subset to the larger set of all other needs.
 
 ### VS Code
-Visual Studio Code is an open-source code editor, maintained by big old Microsoft. You can use it to access/code/talk to all sorts of software, languages, and machines. You can use it to make websites, program an Arduino microcontroller, control a Raspberry PI, code a game in Unity, write Twine poetry, draw P5 sketches, and gazillion other things. It is currently the de-facto tool for coding stuff in general.
+Visual Studio Code is an open-source code editor, maintained by big old Microsoft. You can use it to access/code/talk to all sorts of software, languages, and machines. You can use it to make websites, program an Arduino microcontroller, control a Raspberry PI, code a game in Unity, write Twine poetry, draw P5 sketches, write a masters thesis, and gazillion other things. It is currently the de-facto tool for coding stuff in general.
 
 <https://code.visualstudio.com/download>
 
