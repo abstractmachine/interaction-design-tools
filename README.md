@@ -28,7 +28,7 @@ By using a command-line tool (cf. Terminal, below) such as [Pandoc](https://pand
 1. [Install Pandoc](https://pandoc.org/installing.html) using the installer. Make sure to follow the instructions for adding LaTeX into your installation of Pandoc for whatever platform you are using. LaTeX will allow us to generate PDF files from Markdown
 2. Create a simple Markdown text file (cf. [Getting Started](https://pandoc.org/getting-started.html)) in whatever text editor you prefer (cf. VS Code, below), and save it as `NameOfTextFile.md`
 3. Open your Terminal (cf. below) into the folder of your text file
-4. Type `pandoc NameOfTextFile.md -o nameofoutput.pdf`
+4. Type `pandoc NameOfTextFile.md -o NameOfTextFile.pdf`
 	
 Voilà, you now have a powerful workflow for writing your master's thesis. Here, for example, is [Mathilde Buenerd's Masters Thesis](https://github.com/mathildebuenerd/master-thesis-autocomplete) with instructions for the tools and workflow she designed to write and publish it.
 
