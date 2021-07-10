@@ -121,6 +121,8 @@ To make Unity (cf. below) work with VS Code, you should install the following :
 - [Unity Debugger Extension](https://marketplace.visualstudio.com/items?itemName=Unity.unity-debug) (optional)
 - [Unity Snippets Extension](https://marketplace.visualstudio.com/items?itemName=kleber-swf.unity-code-snippets) (optional)
 
+In Unity's preferences, set the development tool via `Unity` > `External Tools` > `External Script Editor` > `Browse` and point it to your `Visual Studio Code` installation on your computer.
+
 If after all that you are still having problems reading your Unity scripts in VS Code, or cannot use the handy autocomplete features, read the following Microsoft document: [Unity Development with VS Code](https://code.visualstudio.com/docs/other/unity).
 
 ### Terminal
