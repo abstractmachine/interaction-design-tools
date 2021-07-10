@@ -57,7 +57,7 @@ Bitsy is an even simpler tool than Twine to make interactive narratives, althoug
 ### GB Studio
 Another amazing open-source tool for interactive storytelling is GB Studio, which was designed for creating fully working interactive narratives on classic Gameboy and Gameboy Color consoles, but can also be exported directly for the web: [GB Studio](https://www.gbstudio.dev).
 
-Following the invocation by [100 Rabbits](https://100r.co/site/home.html) to only use already-built technologies, GB Studio is a working solution for telling stories using both old and new hardware. If you integrate the webpage export into a native iOS or Android app wrapper, you can even distribute your story/game on a smartphone, tablet or smart TV.
+Following the invocation by [100 Rabbits](https://100r.co/site/home.html) to only use already-built technologies, GB Studio is a working solution for telling stories using both old and new hardware. If you integrate the webpage export into a native iOS or Android app wrapper, you can even distribute your story/game on a smartphone, tablet or smart TV (cf. Web App, below).
 
 ### Fungus
 Fungus is a free, open-source plug-in for Unity (cf. below) that you can download via the Unity Asset Store.
