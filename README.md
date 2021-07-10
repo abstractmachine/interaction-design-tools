@@ -319,7 +319,7 @@ Yes, you can design your own circuitboards. You can even integrate them into you
 [Fritzing](https://fritzing.org) is a simple, easy to learn software tool for creating your own custom Printed Circuit Board (PCB) designs.
 
 ### KiCAD
-This is an open-source project slowly emerging as the de-facto hobbyist+professional tool for designing Printed Circuit Boards (PCB). It requires a strong understanding of electronics, and is very much the professional upgrade from Fritzing (cf. above).
+This is an open-source project slowly emerging as the de-facto hobbyist+professional tool for designing Printed Circuit Boards (PCB). It requires a strong understanding of electronics, and is very much the professional upgrade from Fritzing (cf. above). Another solution is Fusion 360 (cf. below) that integrates a PCB design environment inside of a larger 3D CAD tool.
 
 [KiCAD](https://www.kicad.org)
 
