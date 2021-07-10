@@ -281,7 +281,7 @@ Blender is a free, open-source alternative to Cinema 4D, and is currently the ri
 
 - - -
 
-## Physical Stuff
+## Electronics
 
 ### Arduino
 Arduino allows you to create interactions with the physical world.
@@ -309,6 +309,21 @@ Arduino is simple software, so great for beginners. But you can also use VS Code
 
 [Arduino extension](https://marketplace.visualstudio.com/items?itemName=vsciot-vscode.vscode-arduino) (VS Code)
 
+### Fritzing
+Yes, you can design your own circuitboards. You can even integrate them into your own custom housings (cf. CAD Tools, below) that you print out using various prototyping methods.
+
+[Fritzing](https://fritzing.org) is a simple, easy to learn software tool for creating your own custom Printed Circuit Board (PCB) designs.
+
+### KiCAD
+This is an open-source project slowly emerging as the de-facto hobbyist+professional tool for designing Printed Circuit Boards (PCB). It requires a strong understanding of electronics, and is very much the professional upgrade from Fritzing (cf. above).
+
+[KiCAD](https://www.kicad.org)
+
+- - -
+
+## CAD Tools
+CAD, or Computer-Assisted Design tools, are unlike 3D modelling software built for animation, games, or immersive environments. 3D CAD tools are designed for "solid" objects, whereas 3D modellers and game engines generate hollow objects that can render more quickly because they don't have any internal geometry to render and do not need to be structurally sound. A physical object obviously needs to be structurally sound. Also, a good 3D CAD software should know how to build an object so that it can be succesfully machined by some manual or automatic process: boring the object out of a solid block of material, printing out solid "layers" via a 3D printer, or cutting out pieced of material that can be sucessfully assembled into the final form.
+
 ### Shapr3D
 If you have an iPad + Pencil, get Shapr3d. You won't regret it. It is easy to learn and is the fastest way to design CAD-style physical objects, and uses the same "Parasolid" 3D rendering engine as the industry CAD standard Solidworks, albeit without all the gazillion extra tools and solutions Solidworks provides. But for pure modelling of objects, gadgets, furniture, and all sorts of "stuff", Shapr3d is blazingly easy, fast, and feels like the future of CAD:
 
@@ -333,6 +348,9 @@ Grasshopper is visual, node-based plug-in that allows you to create parametric d
 
 ### Fusion 360
 The up-and-coming beheamoth of CAD tool, with a whole suite of functionality that all works together.
+
+### OpenSCAD
+If you are looking for a creative coding method for generatively designing physical objects using code, try [OpenSCAD](https://openscad.org), "The Programmers Solid 3D CAD Modeller". 
 
 - - -
 
