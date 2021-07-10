@@ -270,7 +270,7 @@ If you are looking to make the next Mandalorian — i.e. or working on a [virtua
 
 <https://www.unrealengine.com>
 
-Unreal has a visual system for designing the behavior of your game experience called [Blueprints](https://docs.unrealengine.com/4.26/en-US/ProgrammingAndScripting/Blueprints/). It allows you to code your experience using a node based system of blocks, sililar to Max/MSP, Blender, vvvv, PureData, or TouchDesigner.
+Unreal has a visual system for designing the behavior of your game experience called [Blueprints](https://docs.unrealengine.com/4.26/en-US/ProgrammingAndScripting/Blueprints/). It allows you to code your experience using a node based system of blocks, sililar to Max/MSP, Blender, vvvv, PureData, or TouchDesigner. Alternatively, you can code the behavior of your project using a code-based solution, in the C++ language.
 
 ### Cinema 4D
 We use Cinema 4D for creating speculative scenarios, world building, and exploring narrative through 3D. It is not the ideal tool for CAD-style design of physical objects.
