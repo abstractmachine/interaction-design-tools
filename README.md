@@ -9,6 +9,33 @@ Not everything here is open-source, although there are open-source alternatives 
 
 - - -
 
+## Writing
+
+Many projects begin with writing — either while finding the core poetics or mythology of a project, or directly as the central media of the project as in an interactive narrative (cf. below). Masters students also have to write a text-based thesis, and as such, choice of your writing tools is important. Although it is a university standard (especially for research documents), Microsoft Word and even LibreOffice are often the wrong tools for almost any interaction design document, media design thesis, or digital art & design research project.
+
+### Markdown
+[Markdown](https://fr.wikipedia.org/wiki/Markdown) gets it's own category.
+
+Stop using Word for writing your documents. Use Markdown. You are welcome.
+
+Markdown was originally designed for bloggers wishing to keep their text clean on their end (writer-oriented design tools), but with the possibility of easily converting said text into web pages with all the advantages that structured hypertext allows. From this original use-case, the simplicity and elegance of Markdown has allowed it to evolve into *the* de-facto, default format for all types of text documents: blogs, essays, chat discussions (cf. [Discord](https://support.discord.com/hc/en-us/articles/210298617-Markdown-Text-101-Chat-Formatting-Bold-Italic-Underline-)), documentation, and so on.
+
+Markdown was designed to be easily transformed into whatever final format you need to export to: .doc, .txt, .html, .pdf, .epub, etc. (cf. Pandoc, below).
+
+### Pandoc
+By using a command-line tool (cf. Terminal, below) such as [Pandoc](https://pandoc.org), you can convert your Markdown texts to and from all sorts of formats: .doc, .otf, .pdf, .epub, etc.
+
+1. [Install Pandoc](https://pandoc.org/installing.html) using the installer. Make sure to follow the instructions for adding LaTeX into your installation of Pandoc for whatever platform you are using. LaTeX will allow us to generate PDF files from Markdown
+2. Create a simple Markdown text file (cf. [Getting Started](https://pandoc.org/getting-started.html)) in whatever text editor you prefer (cf. VS Code, below)
+3. Open your Terminal (cf. below) into the folder of your text file
+4. Type `pandoc nameofinput.md -o nameofoutput.pdf`
+	
+Voilà, you now have a powerful workflow for writing your master's thesis. Here, for example, is [Mathilde Buenerd's Masters Thesis](https://github.com/mathildebuenerd/master-thesis-autocomplete) with instructions for the tools and workflow she designed to write and publish it.
+
+Important note: in this Markdown > Pandoc > ________ approach, you will design the typography and layout using Cascading Style Sheets (CSS) — the format for designing web pages. This does not mean that your project is screen-based only; CSS can be used in print-based layout and typography.
+
+- - -
+
 ## Storytelling
 
 ### Twine/Twee
@@ -33,6 +60,14 @@ It is an entirely visual node-based programming tool, meaning you can design int
 
 Fungus is a fun way to start learning Unity and works well for youth-workshop introductions to 2D game creation in Unity. With very little basic knowledge of Unity you can get a lot done with Fungus.
 
+### Bitsy
+Bitsy is an even simpler tool than Twine to make interactive narratives, although in this case, the story format is that of a pixel-based adventure game. [Bitsy](https://ledoux.itch.io/bitsy)
+
+### GB Studio
+Another amazing open-source tool for interactive storytelling is GB Studio, which was designed for creating fully working interactive narratives on classic Gameboy and Gameboy Color consoles, but can also be exported directly for the web: [GB Studio](https://www.gbstudio.dev).
+
+Following the invocation by [100 Rabbits](https://100r.co/site/home.html) to only use already-built technologies, GB Studio is a working solution for telling stories using both old and new hardware. If you integrate the webpage export into a native iOS or Android app wrapper, you can even distribute your story/game on a smartphone, tablet or smart TV.
+
 - - -
 
 ## Wireframing/Diagrams
@@ -54,29 +89,6 @@ By adding Bravo into the mix, you can convert your Figma prototype into an actua
 <https://www.bravostudio.app>
 
 Note: I have not tested this solution sufficiently to recommend it.
-
-- - -
-
-## Markdown
-[Markdown](https://fr.wikipedia.org/wiki/Markdown) gets it's own category.
-
-Stop using Word for writing your documents. Use Markdown. You are welcome.
-
-Markdown was originally designed for bloggers wishing to keep their text clean on their end (writer-oriented design tools), but with the possibility of easily converting said text into web pages with all the advantages that structured hypertext allows. From this original use-case, the simplicity and elegance of Markdown has allowed it to evolve into *the* de-facto, default format for all types of text documents: blogs, essays, chat discussions (cf. [Discord](https://support.discord.com/hc/en-us/articles/210298617-Markdown-Text-101-Chat-Formatting-Bold-Italic-Underline-)), documentation, and so on.
-
-Markdown was designed to be easily transformed into whatever final format you need to export to: .doc, .txt, .html, .pdf, .epub, etc. (cf. Pandoc, below).
-
-### Pandoc
-By using a command-line tool (cf. Terminal, below) such as [Pandoc](https://pandoc.org), you can convert your Markdown texts to and from all sorts of formats: .doc, .otf, .pdf, .epub, etc.
-
-1. [Install Pandoc](https://pandoc.org/installing.html) using the installer. Make sure to follow the instructions for adding LaTeX into your installation of Pandoc for whatever platform you are using. LaTeX will allow us to generate PDF files from Markdown
-2. Create a simple Markdown text file (cf. [Getting Started](https://pandoc.org/getting-started.html)) in whatever text editor you prefer (cf. VS Code, below)
-3. Open your Terminal (cf. below) into the folder of your text file
-4. Type `pandoc nameofinput.md -o nameofoutput.pdf`
-	
-Voilà, you now have a powerful workflow for writing your master's thesis. Here, for example, is [Mathilde Buenerd's Masters Thesis](https://github.com/mathildebuenerd/master-thesis-autocomplete) with instructions for the tools and workflow she designed to write and publish it.
-
-Important note: in this Markdown > Pandoc > ________ approach, you will design the typography and layout using Cascading Style Sheets (CSS) — the format for designing web pages. This does not mean that your project is screen-based only; CSS can be used in print-based layout and typography.
 
 - - -
 
@@ -111,25 +123,7 @@ To make Unity (cf. below) work with VS Code, you should install the following :
 
 If after all that you are still having problems reading your Unity scripts in VS Code, or cannot use the handy autocomplete features, read the following Microsoft document: [Unity Development with VS Code](https://code.visualstudio.com/docs/other/unity).
 
-### P5
-P5 is the JavaScript evolution of the [Processing](http://processing.org) project and is essential for learning the basics of *creative coding*.
-
-<https://p5js.org>
-
-You can write P5 "sketches" using the `P5.vscode` extension for VS Code (cf. above). Or you can code your sketches directly inside the online P5 editor, which is handy for quickly prototyping any idea from whatever machine you are on: just open a browser, sign in, and starting coding an interactive sketch:
-
-<https://editor.p5js.org>
-
-Make sure you create an account in order to save your work and access your previous sketches.
-
-*Advanced users:* if you are already experienced in creating web pages, you can download the latest "complete library" version of P5 to your computer. This will also allow you to code offline. In this approach, you would write your P5 sketches using VS Code (cf. above):
-
-<https://p5js.org/download/>
-
-## Paper.js
-P5.js is very much a pixel-based solution for coding images; if instead you want a vector-first solution, [Paper.js](http://paperjs.org) was designed first and formost as a designer-oriented vector-based tool for people who code in Javascript. Paper.js was designed and developed by our colleague [Jürg Lehni](http://juerglehni.com), along with another brilliant designer, [Jonathan Puckey](https://puckey.studio).
-
-## Terminal
+### Terminal
 You should know where the Terminal is on your computer.
 
 - macOS: `cmd` + `space` and type `Terminal`
@@ -140,8 +134,8 @@ Common commands from within the terminal are: `cd` change directory, `ls` list f
 
 The terminal is powerful. Be careful: you can break things.
 
-## Package Manager
-If you need to install commands in your terminal, you should use a "package manager".
+### Package Manager
+If you need to install commands in your terminal, you should use a "package manager". This will take care of a lot of the ugly details of installing and updating various commands that can be invoked directly from your terminal. For example, if you want to install Pandoc (cf. below), you can directly install it via a package manager such as `brew` or `apt-get` via the command line.
 
 - macOS
 	- install `brew`
@@ -150,7 +144,7 @@ If you need to install commands in your terminal, you should use a "package mana
 - Windows
 	- ???
 
-## GIT
+### GIT
 We use Git to backup, collaborate, and create historical breadcrumbs of our work.
 
 *Why is this important?* You will **always** make mistakes, and by constantly creating backups of your work via Git, you can easily return to a previous version before your latest bender, high as a kite where you had an awesomesauce revolutionary idea that totally broke everything you had built up to that point; calm down; deep breath; pour yourself a tea; move back to a previous `git commit` from when you were more sober; get back to work making your awesome thing.
@@ -163,6 +157,19 @@ To save your Git backups online, open free accounts on the two following website
 - <https://github.com>
 
 You will share code from your various projects and download code from various contributors via these two websites, as well as other popular Git hosting sites.
+
+- - -
+
+## Languages
+
+## HTML/CSS
+Webpage design is usually the starting point for many designers just learning to code. Although it has some "programming language" aspects, HTML (HyperText Markup Language) is more of a description of layout, typography, and other design choices of a webpage. Basically, HTML describes the content and layout of a page, while CSS (Cascading Style Sheets) describes the visual design of the page and also can be used to animate elements on the page.
+
+Although HTML and CSS were designed principally for publishing websites, there are aspects of CSS that were designed for print-based solutions. In other words, you can design your page to look one way when viewed through a browser, and entirely differently when printed or exported as a PDF, including handling of page breaks and other print-specific design choices. In the Media Design Master, many of us use a combination of Markdown (cf. below) + CSS + Pandoc as a replacement for designing a book or multipage document in InDesign.
+
+## Javascript
+
+
 
 ## Python
 Install a Python Virtual Environment.
@@ -188,6 +195,32 @@ Since we do a lot of A.I. experiments, be sure you have the following base Pytho
 - [Pytorch](https://pytorch.org/get-started/locally/)
 - [Numpy](https://numpy.org/install/)
 - [Tensorflow](https://www.tensorflow.org/install/pip?hl=fr)
+
+## C#
+
+C# is a language designed by Microsoft, and is used in many different fields; but for our uses is almost solely used in projects built in Unity (cf. below).
+
+- - -
+
+## 2D Graphics
+
+### P5
+P5 is the JavaScript evolution of the [Processing](http://processing.org) project and is essential for learning the basics of *creative coding*.
+
+<https://p5js.org>
+
+You can write P5 "sketches" using the `P5.vscode` extension for VS Code (cf. above). Or you can code your sketches directly inside the online P5 editor, which is handy for quickly prototyping any idea from whatever machine you are on: just open a browser, sign in, and starting coding an interactive sketch:
+
+<https://editor.p5js.org>
+
+Make sure you create an account in order to save your work and access your previous sketches.
+
+*Advanced users:* if you are already experienced in creating web pages, you can download the latest "complete library" version of P5 to your computer. This will also allow you to code offline. In this approach, you would write your P5 sketches using VS Code (cf. above):
+
+<https://p5js.org/download/>
+
+## Paper.js
+P5.js is very much a pixel-based solution for coding images; if instead you want a vector-first solution, [Paper.js](http://paperjs.org) was designed first and formost as a designer-oriented vector-based tool for people who code in Javascript. Paper.js was designed and developed by our colleague [Jürg Lehni](http://juerglehni.com), along with another brilliant designer, [Jonathan Puckey](https://puckey.studio).
 
 ## Drawbot
 
