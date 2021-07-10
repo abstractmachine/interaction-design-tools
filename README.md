@@ -39,7 +39,7 @@ Important note: in this Markdown > Pandoc > ________ approach, you will design t
 ## Storytelling
 
 ### Twine/Twee
-Twine is a tool for making non-linear interactive text-based stories. It is a great tool for getting started with interactivity. At some stage of each narrative project, we almost always prototype at least some part of our interactive stories in Twine. Twine is the best and fastest was to learn interactive branching narrative.
+Twine is a tool for making non-linear interactive text-based stories. It is a great tool for getting started with interactivity. At some stage of each narrative project, we almost always prototype at least some part of our interactive stories in Twine. Twine is the best and fastest way to learn interactive branching narrative.
 
 <https://twinery.org>
 
