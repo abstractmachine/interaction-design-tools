@@ -359,7 +359,17 @@ Note: this library for Unity requires 1. a basic understanding of Unity and 2. a
 
 - - -
 
-## WebApp
+## Web
+
+### Website
+There are a gazillion solutions for making a website. There are also services like Squarespace, WordPress, or Adobe Portfolio for making a website via a drag-and-drop interface.
+
+### Kirby
+Kirby is a solution for making websites that is based off of an extremely clean, well-designed-and-engineered minimalist approach to handling modular content, design, and interaction. It is a "flat", file-based solution, i.e. it does not require the installation of a database; instead it builds your website out of a simple collection of folders containing sub-folders and files in those folders. If you know how to make a folder and put files into folders, you know how to make websites using Kirby.
+
+[Kirby](https://getkirby.com)
+
+### Web App
 A fast way to make an app is to build a web page and then to build an app around it, and install that app onto your iPhone, iPad, or Android phone/tablet.
 
 Many of the creative coding tools here generate [HTML5](https://fr.wikipedia.org/wiki/HTML5) webpages: Twine narratives, P5 interactive/generative sketches, etc. 
