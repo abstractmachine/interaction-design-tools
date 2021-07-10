@@ -137,7 +137,7 @@ Common commands from within the terminal are: `cd` change directory, `ls` list f
 The terminal is powerful. Be careful: you can break things. You can even break your operating system, requiring you to re-install it from scratch. *Of course this has **never never ever** happened to us, but we just wanted to warn you.*
 
 ### Package Manager
-If you need to install commands in your terminal, you should use a "package manager". This will take care of a lot of the ugly details of installing and updating various commands that can be invoked directly from your terminal. For example, if you want to install Pandoc (cf. below), you can directly install it via a package manager such as `brew` or `apt-get` via the command line.
+If you need to install commands in your terminal, you should use a "package manager". This will take care of a lot of the ugly details of installing and updating various commands that can be invoked directly from your terminal. For example, if you want to install Pandoc (cf. above), you can directly install it via a package manager such as `brew` or `apt-get` via the command line.
 
 - macOS
 	- install `brew`
