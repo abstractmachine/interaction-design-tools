@@ -149,7 +149,9 @@ If you need to install commands in your terminal, you should use a "package mana
 ### GIT
 We use Git to backup, collaborate, and create historical breadcrumbs of our work.
 
-*Why is this important?* You will **always** make mistakes, and by constantly creating backups of your work via Git, you can easily return to a previous version before your latest bender, high as a kite where you had an awesomesauce revolutionary idea that totally broke everything you had built up to that point; calm down; deep breath; pour yourself a tea; move back to a previous `git commit` from when you were more sober; get back to work making your awesome thing.
+*Why is this important?* You will **always** make mistakes, and by constantly creating backups of your work via Git, you can easily return to a previous version. The story goes more or less like this:
+
+	> You are making the greatest thing ever made. High as a kite on your latest bender full of inspiration and manic glee, you have an awesomesauce revolutionary idea that totally breaks everything you had built up to that point. Calm down. Deep breath. Go for a walk. Pour yourself some tea. We cool, because you use git to breadcrumb your work. Just move back to a previous "git commit" from when you were more sober, and get back to work making your awesome bestest thingy ever.
 
 Make sure Git is installed on your machine. Open a Terminal (cf. above) and type `git` from the command line. You should see a list of possible Git functions.
 
