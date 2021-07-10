@@ -228,13 +228,13 @@ P5.js is very much a pixel-based solution for coding images; if instead you want
 
 ## Drawbot
 
-If you are a graphic designer and want to explore coding tools built directly for/by designers, you should try [Drawbot](https://www.drawbot.com). Drawbot is similar to Processing/P5.js, in that it was designed as a simple environment to not only explore creative coding, but also to learn coding itself. The list of instructions is simple but powerful, and can be used either with its simplified all-in-one integrated [Drawbot App](https://www.drawbot.com/content/drawBotApp.html) interface, or via VS Code.
+If you are a graphic designer, another coding tool built directly for/by designers is [Drawbot](https://www.drawbot.com). Drawbot is similar to Processing/P5.js, in that it was designed as a simple environment to not only explore creative coding, but also to learn coding itself using the language Python. The list of instructions is simple but powerful, and can be used either with its simplified all-in-one integrated [Drawbot App](https://www.drawbot.com/content/drawBotApp.html) interface, or via VS Code.
 
 Warning: this is a macOS-only solution.
 
 - Download [Drawbot](https://www.drawbot.com/content/download.html) for Mac OS X
-- Instructions for integrating Drawbot into VSCode: [drawbot-vscode](https://github.com/arrowtype/drawbot-vscode)
 - [Roberto Arista](http://projects.robertoarista.it)'s excellent tutorial [Python For Designers](https://pythonfordesigners.com) should give you all the basics you need to get started
+- Instructions for integrating Drawbot into VSCode: [drawbot-vscode](https://github.com/arrowtype/drawbot-vscode)
 
 ## Robofont
 If you also want to use the Python language to design your own fonts, the natural font designer's complement to Drawbot is [Robofont](https://robofont.com). Much like its competitors Glyphs or FontForge, Robofont has a graphical interface for designing your glyphs. But it was also designed with scripting window (the same as Drawbot, by the way) where you can code different parameters and shapes using Python instructions. Although you can use Robofont only through its graphical interface, in many senses, the tool was built around extensibility via code.
