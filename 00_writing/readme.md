@@ -15,7 +15,7 @@ Markdown was designed to be easily transformed into whatever final format you ne
 
 Here are some tools you can use to write pure markdown:
 
-- [VS Code](https://code.visualstudio.com) (see [Code](../03_code))
+- [VS Code](https://code.visualstudio.com) (see [Code](../../03_code))
 - [Hedgehog Doc](https://hedgedoc.org) \*
 - [HackMD](https://hackmd.io) \*
 - [iA Writer](https://ia.net/writer)
