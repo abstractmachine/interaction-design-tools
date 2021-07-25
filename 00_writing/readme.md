@@ -7,9 +7,23 @@ Many projects begin with writing — either while finding the core poetics or my
 
 Stop using Word for writing your documents. Use Markdown. You are welcome.
 
+Markdown is not software, it is more of a standard for writing text, and can be used in many different tools, websites, and APIs.
+
 Markdown was originally designed for bloggers wishing to keep their text clean on their end (writer-oriented design tools), but with the possibility of easily converting said text into web pages with all the advantages that structured hypertext allows. From this original use-case, the simplicity and elegance of Markdown has allowed it to evolve into *the* de-facto, default format for all types of text documents: blogs, essays, chat discussions (cf. [Discord](https://support.discord.com/hc/en-us/articles/210298617-Markdown-Text-101-Chat-Formatting-Bold-Italic-Underline-)), documentation, and so on.
 
 Markdown was designed to be easily transformed into whatever final format you need to export to: .doc, .txt, .html, .pdf, .epub, etc. (cf. Pandoc, below).
+
+Here are some tools you can use to write pure markdown:
+
+- [VS Code](https://code.visualstudio.com) (see [Code](03_code))
+- [Hedgehog Doc](https://hedgedoc.org) \*
+- [HackMD](https://hackmd.io) \*
+- [iA Writer](https://ia.net/writer)
+- [Typora](https://typora.io)
+
+\* Both Hedgehog and HackMD are collaborative online tools, similar to Google Docs.
+
+Since the rest of this list contains a gazillion solutions to using [VS Code](https://code.visualstudio.com), and since VS Code is free, you should probably just write your Markdown in VS Code.
 
 ### Pandoc
 By using a command-line tool (cf. Terminal, below) such as [Pandoc](https://pandoc.org), you can convert your Markdown texts to and from all sorts of formats: .doc, .otf, .pdf, .epub, etc.
