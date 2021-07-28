@@ -1,3 +1,9 @@
+Title: Code
+
+---
+
+Text:
+
 ## Code
 Code is probably the most important "tool" to learn when aquiring your basic interaction design skills, and for many the hardest. When we say "code", we mean text typed into some sort of "interpreter" or "compiler" that make your things do things. You can successfully design many projects using off-the-shelf solutions, or opt for visual node-based solutions such as Twine, Max, Fungus, etc. But probably, at some point, you will need to understand the rudimentary basics of text-based coding to create more unique experiences and especially if you want or need to build your own tools for your practice.
 
