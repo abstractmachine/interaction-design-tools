@@ -8,4 +8,4 @@ This is a list of some of the basic tools that any student of interaction design
 
 ----
 
-Text: README.md
+Readme: README.md
