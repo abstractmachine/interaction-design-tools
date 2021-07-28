@@ -1,9 +1,3 @@
-Title: Web
-
-----
-
-Text:
-
 ## Web
 Every designer, and most artists, should understand the rudimentary basics of how web pages and web sites are built. Unfortunately, far too many students leave Bachelors and even Masters design programmes without a basic handle on the fundamental triad of *content* (HTML) + *presentation* (CSS) + *interactions* (Javascript).
 
