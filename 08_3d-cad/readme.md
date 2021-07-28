@@ -1,9 +1,3 @@
-Title: 3D CAD Tools
-
-----
-
-Text:
-
 ## CAD Tools
 CAD, or Computer-Assisted Design tools, are unlike 3D modelling software built for animation, games, or immersive environments. 3D CAD tools are designed for "solid" objects, whereas 3D modellers and game engines generate hollow objects that can render more quickly because they don't have any internal geometry to render and do not need to be structurally sound. A physical object obviously needs to be structurally sound. Also, a good 3D CAD software should know how to build an object so that it can be succesfully machined by some manual or automatic process: boring the object out of a solid block of material, printing out solid "layers" via a 3D printer, or cutting out pieces of material that can be sucessfully assembled into the final form.
 
