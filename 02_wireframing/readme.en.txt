@@ -2,5 +2,5 @@ Title: Wireframing
 
 ----
 
-Text: readme.md
+Readme: readme.md
 
