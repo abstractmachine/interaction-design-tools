@@ -16,12 +16,12 @@ Markdown was designed to be easily transformed into whatever final format you ne
 Here are some tools you can use to write pure markdown:
 
 - [VS Code](https://code.visualstudio.com) (see [Code](../../03_code))
-- [Hedgehog Doc](https://hedgedoc.org) \*
-- [HackMD](https://hackmd.io) \*
+- [Hedgehog Doc](https://hedgedoc.org) \†
+- [HackMD](https://hackmd.io) \†
 - [iA Writer](https://ia.net/writer)
 - [Typora](https://typora.io)
 
-\* Both Hedgehog and HackMD are collaborative online tools, similar to Google Docs.
+\† Both Hedgehog and HackMD are collaborative online tools, similar to Google Docs.
 
 Since the rest of this list contains a gazillion solutions to using [VS Code](https://code.visualstudio.com), and since VS Code is free, you should probably just write your Markdown in VS Code.
 
