@@ -2,4 +2,4 @@ Title: Writing
 
 ----
 
-Text: readme.md
+Readme: readme.md
