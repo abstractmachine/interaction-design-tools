@@ -1,5 +1,3 @@
-## Electronics
-
 ### Arduino
 Arduino allows you to create interactions with the physical world. It is *the* starting point for most interaction desginers learning to make reactive physical objects or experiences.
 
@@ -39,11 +37,11 @@ I have written a how-to guide for starting with the Rapberry PI from scratch and
 - [RPI 4 Computer Vision Setup](https://github.com/abstractmachine/RPI4-OF11-OpenCV4.5-Instructions)
 
 ### Fritzing
-Yes, you can design your own circuitboards. You can even integrate them into your own custom housings (cf. CAD Tools, below) that you print out using various prototyping methods.
+Yes, you can design your own circuitboards. You can even integrate them into your own custom housings (cf. (tutorial:CAD link:tools/3d-cad) Tools) that you print out using various prototyping methods.
 
 [Fritzing](https://fritzing.org) is a simple, easy to learn software tool for creating your own custom Printed Circuit Board (PCB) designs.
 
 ### KiCAD
-This is an open-source project slowly emerging as the de-facto hobbyist+professional tool for designing Printed Circuit Boards (PCB). It requires a strong understanding of electronics, and is very much the professional upgrade from Fritzing (cf. above). Another solution is Fusion 360 (cf. below) that integrates a PCB design environment inside of a larger 3D CAD tool.
+This is an open-source project slowly emerging as the de-facto hobbyist+professional tool for designing Printed Circuit Boards (PCB). It requires a strong understanding of electronics, and is very much the professional upgrade from Fritzing (cf. above). Another solution is (tutorial:Fusion 360 link:tools/3d-cad) that integrates a PCB design environment inside of a larger 3D CAD tool.
 
 [KiCAD](https://www.kicad.org)

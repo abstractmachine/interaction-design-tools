@@ -1,6 +1,4 @@
-## 3D Modelling
-
-## Unity
+### Unity
 Unity is a "game engine", used for making 3D games or interactive experiences in general. Unity projects can be distributed on Mac, PC, Linux, Web, iOS, iPadOS, Android, Switch, Playstation, & XBox. It is the de-facto standard for AR, and is the dominant player in the world of VR. It's closest competitor is the Unreal Engine, or the more modest open-source project Godot.
 
 Start by creating a free account on the Unity website:
@@ -29,7 +27,7 @@ Unreal has a visual system for designing the behavior of your game experience ca
 The Unreal 5 interface looks like it will be a lot easier to teach for beginners. That said, beware: Unreal is a big tool, like Unity, and you will not be up and running as fast as you would probably like.
 
 ### Cinema 4D
-We use Cinema 4D for creating speculative scenarios, world building, and exploring narrative through 3D. It is **not** the ideal tool for CAD-style design of physical objects (cf. below).
+We use Cinema 4D for creating speculative scenarios, world building, and exploring narrative through 3D. It is **not** the ideal tool for (tutorial:CAD link:tools/3d-cad)-style design of physical objects.
 
 There is a very affordable a "teacher & student" licence for Cinema 4D:
 
@@ -38,6 +36,6 @@ There is a very affordable a "teacher & student" licence for Cinema 4D:
 If you are already an expert in some other "animation" or "game design" oriented 3D tool such as Blender (cf. below), Maya, 3DS Max, etc., you can stick with that tool. There are many ways to make 3D.
 
 ### Blender
-Blender is a free, open-source alternative to Cinema 4D, and is currently the rising platform for all things animation/game 3D. It is **not** the ideal tool for CAD-style design of physical objects (cf. below). If you know Maya (another 3d modelling tool) inside and out, and you're happy with it, good for you — stick with Maya. If you don't, and you want to learn all the basic tools of asset creation for games, along with rigging tools, texture mapping, etc., just hunker down and learn Blender:
+Blender is a free, open-source alternative to Cinema 4D, and is currently the rising platform for all things animation/game 3D. It is **not** the ideal tool for (tutorial:CAD link:tools/3d-cad)-style design of physical objects. If you know Maya (another 3d modelling tool) inside and out, and you're happy with it, good for you — stick with Maya. If you don't, and you want to learn all the basic tools of asset creation for games, along with rigging tools, texture mapping, etc., just hunker down and learn Blender:
 
 <https://www.blender.org/download/>

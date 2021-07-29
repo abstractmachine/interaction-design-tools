@@ -1,4 +1,3 @@
-## Wireframing/Diagrams
 One of the fastest ways to get started designing app-based or web-based interactions is to make a wireframe diagram of the flow of interactions.
 
 ### Miro

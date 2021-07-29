@@ -1,4 +1,3 @@
-## Web
 Every designer, and most artists, should understand the rudimentary basics of how web pages and web sites are built. Unfortunately, far too many students leave Bachelors and even Masters design programmes without a basic handle on the fundamental triad of *content* (HTML) + *presentation* (CSS) + *interactions* (Javascript).
 
 We cannot insist enough on the importance of a basic understanding of web tools. While we enthusiastically explore and encourage the continued exploration of physical interactions with the world — do not throw out your books, keep your rulers, continue to use protractors, and always have a caliper on hand — the world itself has nevertheless shifted. The web, and more importantly phone-oriented web sites, are very much the starting point for even the most basic form of communication.

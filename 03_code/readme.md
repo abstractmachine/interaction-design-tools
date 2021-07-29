@@ -12,15 +12,15 @@ Once you have downloaded and installed VS Code on your machine, you should insta
 
 - [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 - [Live Share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare)
-- [p5.vscode](https://marketplace.visualstudio.com/items?itemName=samplavigne.p5-vscode) (cf. P5 below)
+- [p5.vscode](https://marketplace.visualstudio.com/items?itemName=samplavigne.p5-vscode) (cf. (tutorial:P5 link:tools/2d-graphics))
 - [Python for Visual Studio](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
-- [Arduino extension](https://marketplace.visualstudio.com/items?itemName=vsciot-vscode.vscode-arduino) (cf. Arduino below)
-- [GIT Lens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens) (cf. Git below)
+- [Arduino extension](https://marketplace.visualstudio.com/items?itemName=vsciot-vscode.vscode-arduino) (cf. (tutorial:Arduino link:tools/electronics))
+- [GIT Lens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens) (cf. (tutorial:Git link:tools/code))
 - [SSH Tools](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh)
-- [Twee 3 Language Tools](https://marketplace.visualstudio.com/items?itemName=cyrusfirheir.twee3-language-tools) (cf. Twine/Twee above)
+- [Twee 3 Language Tools](https://marketplace.visualstudio.com/items?itemName=cyrusfirheir.twee3-language-tools) (cf. (tutorial:Twine-Twee link:tools/storytelling))
 - [vscode-pandoc](https://marketplace.visualstudio.com/items?itemName=DougFinke.vscode-pandoc) (requires Pandoc installation, cf. above)
 
-To make Unity (cf. below) work with VS Code, you should install the following :
+To make (tutorial:Unity link:tools/3d-grapghics) work with VS Code, you should install the following :
 - [Dot Net Core SDK](https://dotnet.microsoft.com/download)
 - **For macOS users**, downlad the latest [Mono](https://www.mono-project.com/download/stable/) installer
 - [C# Extension](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp)

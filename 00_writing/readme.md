@@ -1,5 +1,3 @@
-## Writing
-
 ![Mary Shelley, Prometheus Unbound](shelley-prometheus-manuscript.jpg)
 
 Many projects begin with writing — either while finding the core poetics or mythology of a project, or directly as the central media of the project as in an interactive narrative (cf. below). Masters students also have to write a text-based thesis, and as such, choice of your writing tools is important. Although it is a university standard (especially for research documents), Microsoft Word and even LibreOffice are often the wrong tools for almost any interaction design document, media design thesis, or digital art & design research project.
@@ -17,7 +15,7 @@ Markdown was designed to be easily transformed into whatever final format you ne
 
 Here are some tools you can use to write pure markdown:
 
-- [VS Code](https://code.visualstudio.com) (see [Code](../../03_code))
+- [VS Code](https://code.visualstudio.com) (see (tutorial:code link:tools/code))
 - [Hedgehog Doc](https://hedgedoc.org) \*
 - [HackMD](https://hackmd.io) \*
 - [iA Writer](https://ia.net/writer)
@@ -28,11 +26,11 @@ Here are some tools you can use to write pure markdown:
 Since the rest of this list contains a gazillion solutions to using [VS Code](https://code.visualstudio.com), and since VS Code is free, you should probably just write your Markdown in VS Code.
 
 ### Pandoc
-By using a command-line tool (cf. Terminal, below) such as [Pandoc](https://pandoc.org), you can convert your Markdown texts to and from all sorts of formats: .doc, .otf, .pdf, .epub, etc.
+By using a command-line tool (cf. (tutorial:Terminal link:tools/code)) such as [Pandoc](https://pandoc.org), you can convert your Markdown texts to and from all sorts of formats: .doc, .otf, .pdf, .epub, etc.
 
 1. [Install Pandoc](https://pandoc.org/installing.html) using the installer. Make sure to follow the instructions for adding LaTeX into your installation of Pandoc for whatever platform you are using. LaTeX will allow us to generate PDF files from Markdown
-2. Create a simple Markdown text file (cf. [Getting Started](https://pandoc.org/getting-started.html)) in whatever text editor you prefer (cf. VS Code, below), and save it as `NameOfTextFile.md`
-3. Open your Terminal (cf. below) into the folder of your text file
+2. Create a simple Markdown text file (cf. [Getting Started](https://pandoc.org/getting-started.html)) in whatever text editor you prefer (cf. (tutorial:VS Code link:tools/code)), and save it as `NameOfTextFile.md`
+3. Open your Terminal (cf. (tutorial:Terminal link:tools/code)) into the folder of your text file
 4. Type `pandoc NameOfTextFile.md -o NameOfTextFile.pdf`
 	
 Voilà, you now have a powerful workflow for writing your master's thesis. Here, for example, is [Mathilde Buenerd's Masters Thesis](https://github.com/mathildebuenerd/master-thesis-autocomplete) with instructions for the tools and workflow she designed to write and publish it.

@@ -1,5 +1,3 @@
-## Machine Learning
-
 ### Runway ML
 Runway is great tool for exploring machine learning through a well-designed user interface :
 
