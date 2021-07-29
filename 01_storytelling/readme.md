@@ -1,10 +1,11 @@
-### Twine/Twee
+### Twine
 Twine is a tool for making non-linear interactive text-based stories. It is a great tool for getting started with interactivity. At some stage of each narrative project, we almost always prototype at least some part of our interactive stories in Twine. Twine is the best and fastest way to learn interactive branching narrative.
 
 <https://twinery.org>
 
 Twine comes with a branching, node-based visual tool.
 
+### Twee
 Once we have used Twine to quickly find our voice, we either move to another tool, such as Fungus (cf. below), or design a more sophisticated story using Twine itself, or its pure text-based variant, named Twee:
 
 <https://www.motoslave.net/tweego/>
