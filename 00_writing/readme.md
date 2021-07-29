@@ -2,7 +2,7 @@
 
 Many projects begin with writing — either while finding the core poetics or mythology of a project, or directly as the central media of the project as in an interactive narrative (cf. below). Masters students also have to write a text-based thesis, and as such, choice of your writing tools is important. Although it is a university standard (especially for research documents), Microsoft Word and even LibreOffice are often the wrong tools for almost any interaction design document, media design thesis, or digital art & design research project.
 
-(image: shelley-prometheus-manuscript.jpg)
+(image:shelley-prometheus-manuscript.jpg alt:Mary Shelley, Prometheus Unbound)
 
 ### Markdown
 [Markdown](https://fr.wikipedia.org/wiki/Markdown) gets it's own category.
