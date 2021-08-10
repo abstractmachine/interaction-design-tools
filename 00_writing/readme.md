@@ -7,9 +7,9 @@ Many projects begin with writing — either while finding the core poetics or my
 
 Stop using Word for writing your documents. Use Markdown. You are welcome.
 
-![Markdown screenshot](markdown.png)
-
 Markdown is not software, it is more of a standard for writing text, and can be used in many different tools, websites, and APIs.
+
+![Markdown screenshot](markdown.png)
 
 Markdown was originally designed for bloggers wishing to keep their text clean on their end (writer-oriented design tools), but with the possibility of easily converting said text into web pages with all the advantages that structured hypertext allows. From this original use-case, the simplicity and elegance of Markdown has allowed it to evolve into *the* de-facto, default format for all sorts of text documents: blogs, essays, chat discussions (cf. [Discord](https://support.discord.com/hc/en-us/articles/210298617-Markdown-Text-101-Chat-Formatting-Bold-Italic-Underline-)), documentation, and so on.
 
