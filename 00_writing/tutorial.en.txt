@@ -1,5 +1,5 @@
 Title: Writing
-
 ----
-
+Cover: shelley-frankenstein-manuscript.jpg
+----
 Readme: readme.md
