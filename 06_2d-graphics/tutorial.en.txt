@@ -1,5 +1,5 @@
 Title: 2D Graphics
-
 ----
-
+Cover: xerox-gui.jpg
+----
 Readme: readme.md

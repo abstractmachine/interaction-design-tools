@@ -9,6 +9,8 @@ There is a free student + teacher license that allows you to work on more than t
 
 <https://www.shapr3d.com/education>
 
+(youtube:kMi_0HXXaTE)
+
 ### Rhino + Grasshopper
 In the design world there used to be two main tools for making physical objects: Rhino & Solidworks. Recently Fusion 360 has been moving massively into this territory. Rhino, like Solidworks is a +20 year-old Computer-Assisted Design (CAD) software tool. Of the two, Rhino is a more creative and free-form shape-exploration tool, whereas Solidworks is more on the engineery-machine-part tool side of the fence.
 
@@ -22,8 +24,14 @@ Note: if you are on an M1-based Mac, Rhino currently runs in emulation mode. M1 
 
 Grasshopper is visual, node-based plug-in that allows you to create parametric designs in Rhino. Imagine designing a chair, and then plugging various parameters of that design into a modular system that allows you to tweak the chair by sliding around visual sliders.
 
+![Grasshopper](grasshopper-rhino.png)
+
 ### Fusion 360
 The up-and-coming beheamoth of CAD tool, with a whole suite of functionality that all works together. You can even design your electronic circuits with Fusion 360, allowing you, for example, to design the physical shape of an *interactive game controller* as well as design the circuitboard to goes inside of it.
 
+![Fusion360](fusion360.jpg)
+
 ### OpenSCAD
 If you are looking for a creative coding method for generatively designing physical objects using code, try [OpenSCAD](https://openscad.org), "The Programmers Solid 3D CAD Modeller". 
+
+![OpenSCAD](openscad.png)

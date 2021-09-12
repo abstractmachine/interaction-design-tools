@@ -1,6 +1,6 @@
 Title: Wireframing
-
 ----
-
+Cover: FigJam.jpg
+----
 Readme: readme.md
 

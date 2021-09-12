@@ -33,8 +33,8 @@ By using a command-line tool (cf. (tutorial:Terminal link:tools/code)) such as [
 3. Open your Terminal (cf. (tutorial:Terminal link:tools/code)) into the folder of your text file
 4. Type `pandoc NameOfTextFile.md -o NameOfTextFile.pdf`
 	
-Voilà, you now have a powerful workflow for writing your master's thesis. Here, for example, is [Mathilde Buenerd's Masters Thesis](https://github.com/mathildebuenerd/master-thesis-autocomplete) with instructions for the tools and workflow she designed to write and publish it.
-
-Important note: in this Markdown > Pandoc > ________ approach, you will design the typography and layout using Cascading Style Sheets (CSS) — the format for designing web pages. This does not mean that your project is screen-based only; CSS can be used in print-based layout and typography.
+Voilà, you now have a powerful workflow for writing your master's thesis. You can, for example, [Mathilde Buenerd's Masters Thesis](https://github.com/mathildebuenerd/master-thesis-autocomplete) with instructions for the tools and workflow she designed to write and publish it.
 
 ![Pandoc](pandoc.png)
+
+> Important note: in this Markdown > Pandoc > ________ approach, you will design the typography and layout using Cascading Style Sheets (CSS) — the format for designing web pages. This does not mean that your project is screen-based only; CSS can be used in print-based layout and typography.

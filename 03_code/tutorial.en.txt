@@ -1,5 +1,5 @@
 Title: Code
-
 ----
-
+Cover: hackers.jpg
+----
 Readme: readme.md

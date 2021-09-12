@@ -1,5 +1,5 @@
 Title: Web
-
 ----
-
+Cover: web-cern.jpg
+----
 Readme: readme.md

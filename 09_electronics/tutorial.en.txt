@@ -1,5 +1,5 @@
 Title: Electronics
-
 ----
-
+Cover: 150-in-one-electronics-kit.jpg
+----
 Readme: readme.md
