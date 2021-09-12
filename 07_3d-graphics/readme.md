@@ -39,3 +39,42 @@ If you are already an expert in some other "animation" or "game design" oriented
 Blender is a free, open-source alternative to Cinema 4D, and is currently the rising platform for all things animation/game 3D. It is **not** the ideal tool for (tutorial:CAD link:tools/3d-cad)-style design of physical objects. If you know Maya (another 3d modelling tool) inside and out, and you're happy with it, good for you — stick with Maya. If you don't, and you want to learn all the basic tools of asset creation for games, along with rigging tools, texture mapping, etc., just hunker down and learn Blender:
 
 <https://www.blender.org/download/>
+
+### 3D Object & Character Stores
+
+There are many online virtual stores are quickly developing as new economic driver of the next generation of 3D tools: lots of packs, and suites of characters, objects, textures, animations. Often, for example with characters, these stores propose characters with costumes and movements already configured, and that you can download *for a price* and import directly into your game engine. The problem of course, especially for students, is the question of *price*.
+
+A lot of these marketplaces, such as [Sketchfab](https://sketchfab.com) and [Quixel](https://quixel.com) have recently been bought out by Unreal, in order to make it easier and faster to generate virtual sets for cinema and games, and populate these sets with objects and characters. Unreal's goal is clearly to create a one-stop-shop for building entire worlds, populated with characters, all in high resolution graphics.
+
+### Character Creator & iClone
+
+You might have noticed that there is a new generation of 3D human characters that are appearing in video games and immersive narratives. These characters have more realistic body types, richer and more dynamic skin that reacts better to light and shadows, and they even have somewhat decent facial expressions. This last aspect — facial expressions — still needs more technical advances and better tools, but we are inching closer and closer to pseudo-cinematic experiences within real-time programmable interactive game engines.
+
+One of the reasons for the sudden rise in quality characters, is an improvement in the tools used to build virtual people. It is simply too time consuming to create people vertex by vertex in 3D modelling tools, and then attach their 3D model "skin" to a "rig" of "bones" so that they can be animated in Unity or Unreal (cf. above).
+
+The most popular, and also the most expensive, is [Character Creator](https://www.reallusion.com/character-creator/) which, as it's name implies, allows you to create a fully rigged character just by moving around sliders (taller, shorter, older, younger, eye color, arm length, etc, ad nauseum). The same company also has an animation tool (that also does other stuff) called [iClone](https://www.reallusion.com/iclone/), and that too costs a lot — even with student discounts. So be careful.
+
+- [Character Creator](https://www.reallusion.com/character-creator/)
+- [iClone](https://www.reallusion.com/iclone/)
+
+(youtube:FDyvM4ciTSQ)
+
+### Meta Human
+
+(youtube:6mAF5dWZXcI)
+
+### Make Human 
+
+- [Make Human](http://www.makehumancommunity.org)
+
+Make Human is not pretty like the two above character tools. But it is open-source, and work with the same principle of moving sliders to adjust the body shape and height of your characters. These characters come fully rigger, and can be imported with little fanfare directly into Unity to be animated with whatever means you want.
+
+<https://www.unrealengine.com/en-US/digital-humans>
+
+### Mixamo
+
+Mixamo is two things: an auto-rigging tool and a library of animated movements (idle, walking, jumping, dancing, etc). The auto-rigging tool is the magic part: create a 3D shape in whatever tool you want. It was to vaguely ressemble a humanoid with arms, legs, a torso, a head, positioned in a "T-Pose" with their arm straight out to the sides. Upload this character to Mixamo and after about a minute, it will have generated a fully animated 3D rigged marionnette that you can now control in Unity or Unreal.
+
+[Mixamo](https://www.mixamo.com) is another one of those amazing tools that was bought by Adobe, and who subsequently abandoned it in the elements and is just letting it wither away. For now, it is still usable, but it has not evolved in years and it is probably just a matter of time before Adobe pulls the plug. Adobe just doesn't get (or care about) 3D.
+
+The original idea of Mixamo was to use AI in order to "auto-rig" 3D characters, thereby removing one of the most tedious steps in transforming a humanoid shape into a character that we can animate in a game or interactive story. This still required having a basic 3D humanoid shape to start with. The above character creation tools (Character Creator, Metahuman, Make Human) have made this even easier by creating a slider-based solution that spits out characters automatically: all you have to do are adjust the parameters.
