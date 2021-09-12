@@ -1,5 +1,6 @@
 Title: Tools
-
+----
+Cover: manubraun_RetrocompatibleMuseum_montage-1024x683.jpg
 ----
 
 Intro:
@@ -19,3 +20,5 @@ There is an infinite variety of possible tools that can be used in any project, 
 This list is oriented more towards the creative coding, and/or the make-stuff-break-stuff approach, than the mockup UX or UI style of teaching interaction design.
 
 Not everything here is open-source, although there are open-source alternatives listed, when available. Important student discounts, and/or free-versions exist for all of the paid tools listed here.
+
+Photo by [Manuel Braun](https://www.manuelbraun.fr)
