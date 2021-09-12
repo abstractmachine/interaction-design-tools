@@ -1,5 +1,5 @@
 Title: Storytelling
-
 ----
-
+Cover: mark-lombardi-space-research-1999.jpg
+----
 Readme: readme.md
