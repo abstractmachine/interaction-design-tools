@@ -29,9 +29,9 @@ Following the invocation by [100 Rabbits](https://100r.co/site/home.html) to onl
 ![Cinem'Aventure - Pocket Stories Workshop - GB Studio](GBStudio.png)
 
 ### Fungus
-Fungus is a free, open-source plug-in for (tutorial:Unity link:tools/3d-graphics) that you can download via the Unity Asset Store.
+Fungus is a free, open-source plug-in for (tutorial:Unity link:tools/3d-graphics). It is no longer available in the Unity Asset Store, but you can download the latest packages for unity over at github:
 
-[Fungus](https://assetstore.unity.com/packages/tools/game-toolkits/fungus-34184)
+[Fungus Released](https://github.com/snozbot/fungus/releases)
 
 It is an entirely visual node-based programming tool, meaning you can design interactions using a system of interconnected visual "blocks" instead of writing text-based code.
 
